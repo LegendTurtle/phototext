@@ -124,6 +124,5 @@ img = img.convert('L')
 
 for i in range(img.size[1]):
     print('')
-    print(end='                                   ')
     for j in range(img.size[0]):
         print(get_symbol(img.getpixel((j, i))), end='  ')
